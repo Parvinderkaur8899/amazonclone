@@ -30,7 +30,22 @@
     border:1.5px solid white;
 }
 
+.add1{
+color:#cccccc;
+font-size: 0.85;
+margin-left: 15px;
+}
 
+.add2{
+font-size: 1rem;
+margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/** box 3**/
 .nav-search{
     display: flex;
     justify-content: space-evenly;
@@ -39,7 +54,6 @@
     height: 40px;
     border-radius: 4px;
 }
-
 .search-select{
     background-color:#f3f3f3 ;
     width: 50px;
@@ -48,14 +62,12 @@
     border-bottom-left-radius: 4px;
     border: none;
 }
-
 .search-input{
     width: 100%;
     font-size: 1rem;
     border: none;
 
 }
-
 .search-icon{
     width: 45px;
     display: flex;
@@ -77,6 +89,17 @@
 span{
     font-size: 0.7rem;
 }
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+}
+/** panel**/
 .panel{
     height: 40px;
     background-color:#222f3d ;
@@ -135,18 +158,16 @@ span{
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color:#e2e7e6;
-    border:2px solid black;
+    border: 2px solid black;
 }
 
 .box{
     border: 2px solid black;
-    height : 400px;
+    height:400px;
     width: 23%;
     background-color: white;
-    padding: 20px 0px 15px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    
+     padding: 20px 0px 15px;
+     margin-top: 20px;
 }
 
 .box-img{
@@ -157,10 +178,7 @@ span{
 .box-content{
     margin-left: 1rem;
     margin-right: 1rem;
- 
-
 }
-
 .box-content p{
     color: #007185;
 }
@@ -214,7 +232,10 @@ ul a{
     font-size: 0.7rem;
     text-align: center;
 }
+.pages{
+    padding-top: 25px;
+}
 .copyright{
     font-size: 0.7rem;
     text-align: center;
-}           
+}
